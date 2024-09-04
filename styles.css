@@ -23,7 +23,7 @@ header {
     width: 100%;
     display: flex;
     background-color: #fff;
-    padding: 16px 32px;
+    padding: 24px 32px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     align-items: center;
@@ -69,10 +69,10 @@ nav a:hover {
     background-color: #0c5363;
     color: #fff;
     border: none;
-    padding: 8px 16px;
+    padding: 8px 24px;
     cursor: pointer;
     border-radius: 32px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -184,7 +184,7 @@ nav a:hover {
     color: #6C757D;
 }
 
-.project-info button {
+.project-info a {
     background-color: #0c5363;
     color: #fff;
     border: none;
@@ -195,7 +195,7 @@ nav a:hover {
     font-weight: normal;
 }
 
-button:hover {
+.project-info a:hover {
     background-color: #0A424F;
 }
 
