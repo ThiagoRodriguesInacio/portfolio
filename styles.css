@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mada', Helvetica, sans-serif;
+    font-family: 'open sans', Helvetica, sans-serif;
+    letter-spacing: 2px;
 }
 
 body {
@@ -184,6 +185,10 @@ nav a:hover {
     color: #6C757D;
 }
 
+.project-btn {
+    padding: 16px 0;
+}
+
 .project-info a {
     background-color: #0c5363;
     color: #fff;
@@ -193,6 +198,7 @@ nav a:hover {
     border-radius: 32px;
     font-size: 20px;
     font-weight: normal;
+    margin: 16px 0;
 }
 
 .project-info a:hover {
@@ -211,6 +217,11 @@ nav a:hover {
 .apresentacao {
     color: #2B2F32;
     padding-bottom: 40px;
+}
+
+.apresentacao h5 {
+    color: #2B2F32;
+    font-weight: 400;
 }
 
 .formacao {
