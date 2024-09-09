@@ -236,7 +236,7 @@ nav a:hover {
     background-color: #0c5363;
     color: #fff;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1rem;
     cursor: pointer;
     border-radius: 2rem;
     font-size: 1rem;
@@ -633,7 +633,7 @@ nav a:hover {
         padding: 16px 32px;
         cursor: pointer;
         border-radius: 32px;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: normal;
         margin: 16px 0;
     }
@@ -954,7 +954,7 @@ nav a:hover {
         padding: 16px 32px;
         cursor: pointer;
         border-radius: 32px;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: normal;
         margin: 16px 0;
     }
