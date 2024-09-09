@@ -10,9 +10,11 @@
     <title>Thiago Rodrigues - UX Design e Product Design</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <span class="logo"><a href="index.html">Thiago Rodrigues</a></span>
+        <div class="header-desktop">
             <div class="alinhamento-item">
                 <nav>
                     <ul class="nav ul">
@@ -23,6 +25,20 @@
                 </nav>
                 <button class="contact-btn"><a href="https://www.linkedin.com/in/thiago-rodrigues-604947120/" target="_blank" rel="noreferrer noopener">Vamos conversar</a></button>
             </div>
+        </div>
+        <div class="header-mobile">
+            <div class="alinhamento-item">
+                <button class="menu-btn">☰</button> <!-- Menu Hamburguer -->
+                <nav class="mobile-nav">
+                    <ul class="nav ul">
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><button class="contact-btn"><a href="https://www.linkedin.com/in/thiago-rodrigues-604947120/" target="_blank" rel="noreferrer noopener">Vamos conversar</a></button></li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section class="banner">
@@ -32,7 +48,7 @@
                 <h2 class="subtitle">UX/UI Design e Product Design</h2>
             </div>
             <div class="profile-pic">
-                <img src="image/profile.jpg" alt="perfil">
+                <img src="image/profile.jpg" alt="Foto de perfil de Thiago Rodrigues">
             </div>
         </div>
     </section>
@@ -45,7 +61,9 @@
                 <div class="project-info">
                     <h3>Kairos - Gestão de tempo</h3>
                     <h5>Sistema para gestão de tempo, que permite o controle de horas trabalhadas em projetos.</h5>
-                    <a href="Case.html">Ver detalhes do projeto</a>
+                    <div class="project-btn">
+                        <a href="Case.html">Ver detalhes do projeto</a>
+                    </div>
                 </div>
             </div> -->
             <div class="project">
@@ -166,35 +184,54 @@
         <div class="content">
             <h2>Ferramentas</h2>
             <div class="tools">
-                <div class="tool">
-                    <img src="image/figma.png" alt="Figma">
-                    <h5>Figma</h5>
+                <div class="column-top">
+                    <div class="tool">
+                        <img src="image/figma.png" alt="Figma">
+                        <h5>Figma</h5>
+                    </div>
+                    <div class="tool">
+                        <img src="image/photoshop.png" alt="Adobe Photoshop">
+                        <h5>Adobe Photoshop</h5>
+                    </div>
                 </div>
-                <div class="tool">
-                    <img src="image/photoshop.png" alt="Adobe Photoshop">
-                    <h5>Adobe Photoshop</h5>
-                </div>
-                <div class="tool">
-                    <img src="image/illustrator.png" alt="Adobe Illustrator">
-                    <h5>Adobe Illustrator</h5>
-                </div>
-                <div class="tool">
-                    <img src="image/miro.png" alt="Miro">
-                    <h5>Miro</h5>
+                <div class="column-bottom">
+                    <div class="tool">
+                        <img src="image/illustrator.png" alt="Adobe Illustrator">
+                        <h5>Adobe Illustrator</h5>
+                    </div>
+                    <div class="tool">
+                        <img src="image/miro.png" alt="Miro">
+                        <h5>Miro</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-content-mobile">
+            <div class="social-media">
+                <h6>Mantenha contato</h6>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/thiago-rodrigues-604947120/" target="_blank" rel="noreferrer noopener"><img src="image/linkedin.svg" alt=""></a>
+                    <a href="https://www.instagram.com/thiagorodriguesrew/?next=%2F" target="_blank" rel="noreferrer noopener"><img src="image/instagram.svg" alt=""></a>
+                </div>
+            </div>
+            <h6>&copy; 2024 Thiago Rodrigues Inacio</h6>
+        </div>
+        <div class="footer-content-desktop">
             <h6>&copy; 2024 Thiago Rodrigues Inacio</h6>
             <div class="social-media">
                 <h6>Mantenha contato</h6>
-                <a href="https://www.linkedin.com/in/thiago-rodrigues-604947120/" target="_blank" rel="noreferrer noopener"><img src="image/linkedin.svg" alt=""></a>
-                <a href="https://www.instagram.com/thiagorodriguesrew/?next=%2F" target="_blank" rel="noreferrer noopener"><img src="image/instagram.svg" alt=""></a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/thiago-rodrigues-604947120/" target="_blank" rel="noreferrer noopener"><img src="image/linkedin.svg" alt=""></a>
+                    <a href="https://www.instagram.com/thiagorodriguesrew/?next=%2F" target="_blank" rel="noreferrer noopener"><img src="image/instagram.svg" alt=""></a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
+
+<script src="index.js" type="text/javascript"></script>
+
 </html>
