@@ -136,12 +136,12 @@ nav a:hover {
 
 .title {
     font-weight: bold;
-    color: #6C757D;
+    color: #565E64;
 }
 
 .subtitle {
     font-weight: lighter;
-    color: #A7ACB1;
+    color: #6C757D;
     margin-bottom: 0;
 }
 
@@ -191,7 +191,7 @@ nav a:hover {
 
 .project {
     background-color: #F3F6F7;
-    box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem;
     display: block;
     padding: 1.5rem;
@@ -222,9 +222,9 @@ nav a:hover {
     padding-bottom: 0.5rem;
 }
 
-.project-info h5{
+.project-info h4{
     margin-bottom: 1.5rem;
-    color: #6C757D;
+    color: #565E64;
     width: 100%;
 }
 
