@@ -59,7 +59,7 @@ nav a:hover {
     gap: 1.5rem;
 }
 
-.contact-btn {
+/* .contact-btn {
     background-color: #0c5363;
     color: #fff;
     border: none;
@@ -68,6 +68,26 @@ nav a:hover {
     border-radius: 2rem;
     font-size: 1rem;
     font-weight: bold;
+} */
+
+.contact-btn {
+    padding: 0.75rem 0;
+}
+
+.contact-btn a {
+    background-color: #0c5363;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+
+.contact-btn a:hover {
+    background-color: #0A424F;
 }
 
 .menu-btn {
@@ -540,7 +560,7 @@ nav a:hover {
     
     .subtitle {
         font-weight: lighter;
-        color: #A7ACB1;
+        color: #6C757D;
         margin-bottom: 0;
     }
     
